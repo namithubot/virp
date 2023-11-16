@@ -16,7 +16,7 @@ app.get('/presentation.js', function(req, res){
 });
 
 app.get('/arrow.dae', function(req, res){
-  res.sendFile(__dirname + '/arrow.dae');
+  res.sendFile(__dirname + '/static/arrow.dae');
 });
 
 io.on('connection', function(socket){
